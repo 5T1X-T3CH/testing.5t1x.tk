@@ -1,5 +1,5 @@
  .u-section-1 {
-  min-height: 791px;
+  min-height: 810px;
 }
 
 .u-section-1 .u-shape-1 {
@@ -22,10 +22,11 @@
 }
 
 .u-section-1 .u-group-1 {
-  min-height: 443px;
+  min-height: 492px;
   width: 596px;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.15);
-  margin: -319px calc(((100% - 1140px) / 2)) 60px auto;
+  height: auto;
+  margin: -320px calc(((100% - 1140px) / 2)) 60px auto;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -50,8 +51,8 @@
   border-style: none;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-size: 0.875rem;
-  font-weight: 400;
+  font-size: 1.125rem;
+  font-weight: 700;
   margin: 28px auto 0 0;
   padding: 18px 54px;
 }
@@ -78,10 +79,10 @@
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 492px;
     width: 539px;
     margin-top: -271px;
     margin-right: calc(((100% - 940px) / 2));
+    height: auto;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -214,7 +215,6 @@
   width: 710px;
   min-height: 627px;
   box-shadow: -2px 2px 8px 0 rgba(128,128,128,1);
-  height: auto;
   margin: 0 0 0 auto;
 }
 
@@ -265,7 +265,6 @@
   grid-template-columns: calc(50% - 10.5px) calc(50% - 10.5px);
   grid-gap: 21px 21px;
   min-height: 296px;
-  grid-auto-columns: calc(50% - 10.5px);
 }
 
 .u-section-2 .u-list-item-1 {
@@ -293,7 +292,7 @@
 .u-section-2 .u-text-3 {
   font-weight: normal;
   font-size: 1rem;
-  margin: 19px 0 0;
+  margin: 17px 0 0;
 }
 
 .u-section-2 .u-btn-2 {
@@ -326,7 +325,7 @@
 .u-section-2 .u-text-5 {
   font-weight: normal;
   font-size: 1rem;
-  margin: 19px 0 0;
+  margin: 17px 0 0;
 }
 
 .u-section-2 .u-btn-3 {
@@ -343,7 +342,6 @@
   .u-section-2 .u-group-1 {
     width: 540px;
     min-height: 624px;
-    height: auto;
   }
 
   .u-section-2 .u-text-1 {
@@ -417,10 +415,6 @@
     margin-left: initial;
     width: auto;
   }
-
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(100% - 0px);
-  }
 }
 
 @media (max-width: 767px) {
@@ -435,10 +429,6 @@
 
   .u-section-2 .u-container-layout-1 {
     padding-top: 80px;
-  }
-
-  .u-section-2 .u-repeater-1 {
-    grid-auto-columns: 100%;
   }
 }
 
