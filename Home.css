@@ -527,6 +527,11 @@
 
 .u-section-3 .u-list-item-1 {
   background-image: none;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-3 .u-container-layout-1 {
@@ -554,7 +559,11 @@
 }
 
 .u-section-3 .u-list-item-2 {
-  background-size: auto;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-3 .u-container-layout-2 {
@@ -582,7 +591,11 @@
 }
 
 .u-section-3 .u-list-item-3 {
-  background-size: auto;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-3 .u-container-layout-3 {
@@ -610,7 +623,12 @@
 }
 
 .u-section-3 .u-list-item-4 {
-  background-size: auto;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
+  animation-timing-function: ease-in-out;
 }
 
 .u-section-3 .u-container-layout-4 {
@@ -638,7 +656,11 @@
 }
 
 .u-section-3 .u-list-item-5 {
-  background-size: auto;
+  --animation-custom_in-translate_x: -300px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
 }
 
 .u-section-3 .u-container-layout-5 {
@@ -668,6 +690,22 @@
 @media (max-width: 1199px) {
   .u-section-3 .u-repeater-1 {
     min-height: 242px;
+  }
+
+  .u-section-3 .u-list-item-2 {
+    background-size: auto;
+  }
+
+  .u-section-3 .u-list-item-3 {
+    background-size: auto;
+  }
+
+  .u-section-3 .u-list-item-4 {
+    background-size: auto;
+  }
+
+  .u-section-3 .u-list-item-5 {
+    background-size: auto;
   }
 }
 
@@ -796,6 +834,10 @@
   letter-spacing: 1px;
   margin: 20px auto 0 0;
   padding: 0;
+}
+
+.u-section-4 .u-list-item-2 {
+  animation-timing-function: ease-in-out;
 }
 
 .u-section-4 .u-container-layout-2 {
@@ -1221,7 +1263,7 @@
     margin-left: 14px;
   }
 } .u-section-6 {
-  background-image: none;
+  background-image: linear-gradient(#e5e5e5, #ccd3db);
 }
 
 .u-section-6 .u-sheet-1 {
@@ -1235,6 +1277,9 @@
 .u-section-6 .u-layout-cell-1 {
   background-image: none;
   min-height: 479px;
+  --animation-custom_in-scale: 0.3;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 300px;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -1263,6 +1308,22 @@
   padding: 0;
 }
 
+.u-section-6 .u-btn-3 {
+  background-image: none;
+  border-style: none none solid;
+  font-size: 1.25rem;
+  margin: 20px auto 0 0;
+  padding: 0;
+}
+
+.u-section-6 .u-btn-4 {
+  background-image: none;
+  border-style: none none solid;
+  font-size: 1.25rem;
+  margin: 20px auto 0 0;
+  padding: 0;
+}
+
 .u-section-6 .u-layout-cell-2 {
   background-image: none;
   min-height: 479px;
@@ -1275,15 +1336,21 @@
 .u-section-6 .u-text-2 {
   text-transform: none;
   font-size: 2.25rem;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 0.3;
   margin: 0;
 }
 
 .u-section-6 .u-form-1 {
-  height: 334px;
-  margin: 32px -60px 0 0;
+  height: 344px;
+  width: 567px;
+  margin: 34px 0 0;
 }
 
-.u-section-6 .u-btn-3 {
+.u-section-6 .u-btn-5 {
   background-image: none;
   text-transform: uppercase;
   width: 100%;
@@ -1308,8 +1375,7 @@
   }
 
   .u-section-6 .u-form-1 {
-    margin-right: initial;
-    margin-left: initial;
+    width: 457px;
   }
 }
 
@@ -1320,6 +1386,10 @@
 
   .u-section-6 .u-layout-cell-1 {
     min-height: 100px;
+  }
+
+  .u-section-6 .u-form-1 {
+    width: 336px;
   }
 }
 
@@ -1336,5 +1406,11 @@
   .u-section-6 .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-6 .u-form-1 {
+    width: 320px;
   }
 }
