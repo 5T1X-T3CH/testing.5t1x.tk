@@ -1499,3 +1499,8 @@
     margin-top: 15px;
   }
 }
+.u-expanded-height-custom {
+	position: relative;
+	margin: 0 auto;
+	height: 10;
+}
